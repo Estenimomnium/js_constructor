@@ -1,13 +1,4 @@
-const model = [
-    {type: 'title', value: 'Hello world from js'},
-    {type: 'text', value: 'here we go with some text'},
-    {type: 'columns', value: [
-            '111111111',
-            '222222222',
-            '333333333'
-        ]},
-    {type: 'image', value: './assets/image.png'}
-]
+import {model} from './model'
 
 const $site = document.querySelector( '#site')
 
